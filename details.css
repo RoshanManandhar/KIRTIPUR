@@ -1,0 +1,93 @@
+/* Specific for place_details.php */
+.details-page { 
+    font-family: 'Segoe UI', sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
+    margin: 0; 
+    background: #f9f9f9; 
+}
+
+.container { 
+    max-width: 800px; 
+    margin: 100px auto 50px; /* Top margin accounts for fixed Nav */
+    background: #fff; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1); 
+}
+
+.back-link { 
+    text-decoration: none; 
+    color: #e67e22; 
+    font-weight: bold; 
+    display: inline-block; 
+    margin-bottom: 20px; 
+    transition: 0.2s;
+}
+
+.back-link:hover { color: #d35400; transform: translateX(-5px); }
+
+.detail-img { 
+    width: 100%; 
+    height: 450px; 
+    object-fit: cover; 
+    border-radius: 12px; 
+    margin-bottom: 25px; 
+}
+
+.container h1 { 
+    color: #2c3e50; 
+    font-size: 2.5rem; 
+    margin-bottom: 15px; 
+    border-bottom: 3px solid #e67e22;
+    display: inline-block;
+}
+
+.description { 
+    font-size: 1.1rem; 
+    color: #555; 
+    white-space: pre-wrap; 
+    text-align: justify;
+}
+/* Location Section Styles */
+.location-section {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #eee;
+}
+
+.location-section h3 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Using your theme orange for the icon */
+.location-section h3 i {
+    color: #e67e22;
+}
+
+.location-section p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.map-btn {
+    display: inline-block;
+    background: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.map-btn:hover {
+    background: #d35400;
+    box-shadow: 0 4px 12px rgba(230, 126, 34, 0.3);
+}

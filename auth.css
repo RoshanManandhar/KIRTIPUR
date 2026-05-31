@@ -1,0 +1,52 @@
+ /* login Section */
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        
+        .auth-card { 
+            background: white; padding: 40px; border-radius: 15px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; 
+        }
+
+        h2 { color: #2c3e50; margin-bottom: 5px; }
+        .subtitle { color: #7f8c8d; margin-bottom: 25px; font-size: 0.9rem; }
+
+        .input-group { position: relative; margin-bottom: 15px; text-align: left; }
+        .input-group i { position: absolute; left: 15px; top: 40px; color: #bdc3c7; }
+        
+        label { font-size: 0.85rem; font-weight: 600; color: #555; margin-left: 5px; }
+        
+        input { 
+            width: 100%; padding: 12px 12px 12px 45px; margin-top: 5px;
+            border: 1px solid #ddd; border-radius: 8px; font-size: 1rem;
+        }
+
+        input:focus { border-color: #e67e22; outline: none; }
+
+        .error-msg { 
+            background: #fff5f5; color: #c53030; padding: 10px; 
+            border-radius: 5px; margin-bottom: 15px; font-size: 0.85rem; border: 1px solid #feb2b2; 
+        }
+
+        button { 
+            width: 100%; background: #e67e22; color: white; border: none; 
+            padding: 13px; border-radius: 8px; cursor: pointer; font-weight: 600; 
+            font-size: 1rem; margin-top: 10px; transition: 0.3s;
+        }
+
+        button:hover { background: #d35400; }
+
+        .footer-text { margin-top: 20px; font-size: 0.9rem; color: #555; }
+        .footer-text a { color: #e67e22; text-decoration: none; font-weight: 600; }
+        
+        .back-home { display: block; margin-top: 15px; font-size: 0.8rem; color: #bdc3c7; text-decoration: none; }
+    
+    
+         /* register-section */
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .auth-card { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 350px; text-align: center; }
+        h2 { color: #e67e22; margin-bottom: 20px; }
+        input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+        button { width: 100%; background: #e67e22; color: white; border: none; padding: 12px; border-radius: 8px; cursor: pointer; font-weight: bold; }
+        a { color: #e67e22; text-decoration: none; font-size: 0.9rem; }
+  

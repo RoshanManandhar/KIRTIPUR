@@ -1,0 +1,60 @@
+/* Ensure the browser knows the page is full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Specific for view_photo.php */
+.viewer-body { 
+    margin: 0; 
+    background: #1a1a1a; 
+    color: white; 
+    font-family: sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.viewer-container { 
+    position: relative; 
+    max-width: 90%; 
+    max-height: 80vh; 
+}
+
+.viewer-container img { 
+    max-width: 100%; 
+    max-height: 80vh; 
+    border: 5px solid #fff; 
+    border-radius: 5px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.nav-btn { 
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background: rgba(230, 126, 34, 0.8); 
+    color: white; 
+    padding: 15px; 
+    text-decoration: none; 
+    border-radius: 50%; 
+    transition: 0.3s; 
+    z-index: 10;
+}
+
+.nav-btn:hover { background: #d35400; transform: translateY(-50%) scale(1.1); }
+.prev { left: -60px; }
+.next { right: -60px; }
+
+.close-btn { 
+    position: absolute; 
+    top: -50px; 
+    right: 0; 
+    color: white; 
+    font-size: 2rem; 
+    text-decoration: none; 
+}
