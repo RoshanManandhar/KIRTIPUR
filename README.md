@@ -41,14 +41,5 @@ A simple **PHP-based tourism website** where users can explore **places and attr
 └── view_photo.php       # Photo viewing page
 ```
 
-## 🚀 Getting Started
 
-1. Clone the repository.
-2. Import the database schema into MySQL.
-3. Configure your database credentials in `connect.php`.
-4. Run the project on a local server (e.g., XAMPP, WAMP, or MAMP).
-5. Open `index.php` in your browser to explore the site.
 
-## 📌 Notes
-
-This project is a work in progress — features and folder structure may be updated as development continues.
